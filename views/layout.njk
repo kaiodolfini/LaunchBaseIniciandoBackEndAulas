@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    {% block head %}
-    <title>Kaio Dolfini</title>
-    {% endblock %}
-    <link rel="stylesheet" href="/style.css">
+    <head>
+        {% block head %}
+            <title>Kaio Dolfini</title>
+        {% endblock %}
+        <link rel="stylesheet" href="/style.css">
 
-<body>
-    <header>
-        <div class="links">
-            <a href="/">Sobre</a>
-            <a href="/classes">Videos</a>
-        </div>
-    </header>
+        <body>
+            <header>
+                <div class="links">
+                    <a href="/">Sobre</a>
+                    <a href="/classes">Videos</a>
+                </div>
+            </header>
 
-    {% block content %}{% endblock %}
-</body>
-</head>
-
+            {% block content %}{% endblock %}
+            
+        </body>
+    </head>
 </html>
