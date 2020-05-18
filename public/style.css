@@ -81,12 +81,13 @@ header{
 .cards{
     max-width: 900px;
     margin: 0 auto;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
     gap: 20px;
 }
 .card{
     background-color: var(--color-video);
+    display: grid;
 }
 
 .card_image-container img{
@@ -96,6 +97,7 @@ header{
 .card_content,
 .card_info{
     padding: 24px;
+    align-items: center;
 }
 
 .card_info{
