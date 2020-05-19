@@ -3,7 +3,8 @@ module.exports = [
         id: "RJyziqiTRcA",
         title: "Pilates em casa - Garrafa Pet",
         duration: "7 min",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "EkgP0DNaa7E",
@@ -15,7 +16,8 @@ module.exports = [
         id: "s2w8X84GPyY",
         title: "Pilates em Casa - Alongamento",
         duration: "7 min 02seg",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "mP1w0YezfLo",
@@ -27,7 +29,8 @@ module.exports = [
         id: "_qv8Zlw2lTY",
         title: "Pilates em casa 2",
         duration: "3 min 39seg",
-        price: "Free"
+        price: "Free",
+        featured: true
     },
     {
         id: "csxUJvcvZQo",
